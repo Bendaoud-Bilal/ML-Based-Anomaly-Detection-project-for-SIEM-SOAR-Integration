@@ -1,0 +1,56 @@
+{
+  "numeric_cols": [
+    "flow_duration",
+    "packet_count",
+    "byte_count",
+    "src_port",
+    "dst_port"
+  ],
+  "protocol_columns": [
+    "proto_",
+    "proto_17",
+    "proto_17.0",
+    "proto_6",
+    "proto_6.0",
+    "proto_OTHER",
+    "proto_ospf",
+    "proto_sctp",
+    "proto_tcp",
+    "proto_udp",
+    "proto_unas"
+  ],
+  "final_feature_columns": [
+    "flow_duration",
+    "packet_count",
+    "byte_count",
+    "src_port",
+    "dst_port",
+    "proto_",
+    "proto_17",
+    "proto_17.0",
+    "proto_6",
+    "proto_6.0",
+    "proto_OTHER",
+    "proto_ospf",
+    "proto_sctp",
+    "proto_tcp",
+    "proto_udp",
+    "proto_unas"
+  ],
+  "combined_raw_path": "ml_output\\processed\\combined_raw.parquet",
+  "normalized_path": "ml_output\\processed\\combined_normalized.parquet",
+  "total_rows": 7619541,
+  "total_features": 16,
+  "skipped_files": [
+    {
+      "path": "original datasets\\UNSW-NB15-CSVs\\UNSW-NB15-CSVs\\CSV Files\\Training and Testing Sets\\UNSW_NB15_testing-set.csv",
+      "error": "'DataFrame' object has no attribute 'str'"
+    },
+    {
+      "path": "original datasets\\UNSW-NB15-CSVs\\UNSW-NB15-CSVs\\CSV Files\\Training and Testing Sets\\UNSW_NB15_training-set.csv",
+      "error": "'DataFrame' object has no attribute 'str'"
+    }
+  ],
+  "files_processed": 24,
+  "files_skipped": 2
+}

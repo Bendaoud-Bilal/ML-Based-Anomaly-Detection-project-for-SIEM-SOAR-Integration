@@ -1,0 +1,63 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large model files (too big for GitHub)
+ml_output/models/*.joblib
+ml_output/models/*.pkl
+ml_output/models/*.h5
+
+# Large processed data files (keep metadata only)
+ml_output/processed/*.parquet
+ml_output/processed/chunks/
+ml_output/dataset/*.csv
+ml_output/dataset/*.npz
+
+# Keep these metadata files (negate ignore)
+!ml_output/pipeline_log.json
+!ml_output/processed/feature_list.json
+!ml_output/dataset/split_info.json
+!ml_output/models/evaluation_metrics.json
+
+# Original datasets (too large for GitHub - download separately)
+original datasets/
+
+# Temporary and log files
+*.log
+*.tmp
+first-con.txt
+second-con.txt
+pipeline_terminal_result.txt
+structure.txt
+tree.ps1
+
+# Empty/unnecessary directories
+ML-anomaly detection/
+processed/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

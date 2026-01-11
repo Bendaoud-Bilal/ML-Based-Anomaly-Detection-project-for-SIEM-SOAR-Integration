@@ -1,0 +1,9 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.1
+tensorflow>=2.12
+joblib
+tqdm
+python-dateutil
+pyarrow>=11.0
+psutil

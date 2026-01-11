@@ -1,0 +1,27 @@
+{
+  "start_time": "2026-01-10 17:18:52.221900",
+  "steps": [
+    {
+      "step": 1,
+      "name": "preprocessing",
+      "skipped": true,
+      "reason": "Already completed"
+    },
+    {
+      "step": 2,
+      "name": "dataset_creation",
+      "skipped": true,
+      "reason": "Already completed"
+    },
+    {
+      "step": 3,
+      "name": "model_training",
+      "command": "C:\\Users\\MyTEK Dz\\Desktop\\ML-anomaly detection\\venv\\Scripts\\python.exe train_model.py --dataset-dir ml_output\\dataset --mode supervised --model-out ml_output\\models\\random_forest.joblib --n-estimators 200",
+      "success": true,
+      "return_code": 0
+    }
+  ],
+  "status": "completed",
+  "end_time": "2026-01-10 17:42:59.494856",
+  "total_time_seconds": 1447.2729561328888
+}
